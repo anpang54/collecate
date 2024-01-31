@@ -1,7 +1,7 @@
 # start
 name = "Collection"
-version = "0.1.0"
-print("\n\t\033[1m{collection} v{version}\033[0m\n")
+version = "0.1.1"
+print("\n\t\033[1m{name} v{version}\033[0m\n")
 
 # get data
 from json import load, dump
