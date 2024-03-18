@@ -1,6 +1,7 @@
 # start
 name = "Collection"
-version = "0.1.1"
+itemName = "Item"
+version = "0.1.2"
 print("\n\t\033[1m{name} v{version}\033[0m\n")
 
 # get data
@@ -12,7 +13,7 @@ with open("data.json", "r") as file:
 while True:
 
     # get item
-    item = input("Brick: ").lower()
+    item = input(f"{item}: ").lower()
 
     if item == "save":
         with open("data.json", "w") as file:
