@@ -1,6 +1,7 @@
 ![](https://img.shields.io/badge/stable-1.0.2-f65) ![](https://img.shields.io/github/license/Anpang54/collection) ![](https://img.shields.io/badge/dependencies-none-3d2)
 
-# collection
-A simple collection thingy using Python and a JSON file.
+# collecate
+A simple command-line tool for storing a collection of things, like Legos. It uses Python and a JSON file. Formerly known as just "collection".
 
-I originally made this for Lego bricks.
+Graphical version coming soon.
+
